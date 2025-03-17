@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'routes.dart'; // Import routes.dart
+import 'routes.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/', // Starts with the LoginScreen
-      routes: appRoutes, // Uses centralized routes
+      initialRoute: '/',
+      routes: appRoutes,
     );
   }
 }
